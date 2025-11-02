@@ -2,8 +2,8 @@ import random as rd
 a= [ ]
 b=0
 
-for i in range(10):
-    a.append(rd.randint(1,100))
+for i in range(100):
+    a.append(rd.randint(1,1000000))
 a2 = a.copy()    
 for i in range(len(a)-1):
     for j in range(len(a)-1-i):
