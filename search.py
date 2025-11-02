@@ -2,8 +2,8 @@ import random
 l = []
 d = []
 k=0
-while len(l)<10: #заполняем список 100 элементами без дублей
-    a= random.randint(0,100)
+while len(l)<100: #заполняем список 100 элементами без дублей
+    a= random.randint(0,1000000)
     if a not in l : 
         l.append(a)
 d=sorted(l)
